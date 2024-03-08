@@ -1,0 +1,282 @@
+.container {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.beat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.beat {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.beat-head {
+  height: 50px;
+  /* background-color: rgb(159, 159, 255); */
+  display: flex;
+  padding: 15px;
+}
+
+.beat-profile-pic {
+  float: left;
+  width: 50px;
+}
+
+.beat-profile-pic img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.beat-profile-info {
+  /* background-color: red; */
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.beat-profile-info .name {
+  font-size: 20px;
+}
+
+.beat-profile-info .name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.beat-profile-info .info {
+  font-size: 15px;
+}
+
+.beat-body {
+  margin: 0px 15px 0px 15px;
+  font-size: 25px;
+}
+
+.beat-body input {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.beat-foot {
+  margin: 15px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.beat-foot .update-delete-beat {
+  display: flex;
+  gap: 10px;
+}
+
+.beat-foot .update-delete-beat div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* .beat-foot .update-delete-beat div:first-child {
+  background-color: aquamarine;
+}
+
+.beat-foot .update-delete-beat div:last-child {
+  background-color: rgb(255, 110, 74);
+} */
+
+.profile {
+  /* background-color: red; */
+  height: 100px;
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px 20px 0px;
+}
+
+.profile img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.profile-info .name {
+  font-size: 35px;
+}
+
+.add-beat {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 10px 0px;
+}
+
+.add-beat input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.add-beat button {
+  border-radius: 5px;
+  width: 20%;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.add-beat button:hover {
+  text-decoration: underline;
+}
+
+.profile-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0px 0px 10px 0px;
+}
+
+.profile-nav div {
+  background-color: rgb(74, 234, 255);
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.profile-nav button {
+  background-color: rgb(255, 110, 74);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.profile-nav .gotohome {
+  background-color: aquamarine;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.profile-nav .editprof {
+  background-color: rgb(180, 112, 244);
+}
+
+.profile-nav button:hover {
+  text-decoration: underline;
+}
+
+.login-container {
+  /* background-color: red; */
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+
+.login-container-add-margin {
+  margin-top: 150px;
+}
+
+.login-logo {
+  font-size: 50px;
+}
+
+.login-type {
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 80%;
+  margin-left: 10%;
+  box-sizing: border-box;
+}
+
+.login-container form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-container form input {
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.login-container form button {
+  background-color: rgb(74, 234, 255);
+  border-radius: 5px;
+  border: 2px solid black;
+
+  padding: 5px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.login-container .reg {
+  background: none;
+  border: 2px solid black;
+}
+
+#surf {
+  background-color: aquamarine;
+}
+
+#reg:hover,
+.login-container form button:hover {
+  text-decoration: underline;
+}
+
+.loginerror {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: red;
+}
+
+.addbeaterror {
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+  color: red;
+}
+
+.home-username {
+  font-size: 35px;
+}
+
+.home-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.home-nav div {
+  background-color: rgb(74, 234, 255);
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.home-nav button {
+  background-color: aquamarine;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.home-nav button:hover {
+  text-decoration: underline;
+}
